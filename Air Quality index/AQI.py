@@ -95,12 +95,12 @@ k4.metric("Dominant Category", filtered_df["AQI Category"].mode()[0])
 # -------------------------------------------------
 aqi_colors = {
 
-    "Good": "#00FF6A",                       # Bright neon green
-    "Moderate": "#FFE600",                   # Bright yellow
-    "Unhealthy for Sensitive Groups": "#FF9F1C",  # Bright orange
-    "Unhealthy": "#FF3B3B",                  # Bright red
-    "Very Unhealthy": "#B5179E",              # Bright purple/magenta
-    "Hazardous": "#7A0000"                    # Deep dark red (danger)
+    "Good": "#00FF6A",                       
+    "Moderate": "#FFE600",                   
+    "Unhealthy for Sensitive Groups": "#FF9F1C",  
+    "Unhealthy": "#FF3B3B",                  
+    "Very Unhealthy": "#B5179E",             
+    "Hazardous": "#7A0000"                   
 }
 
 # -------------------------------------------------
@@ -194,3 +194,4 @@ st.download_button("Download CSV", csv, "filtered_air_quality_data.csv")
 # -------------------------------------------------
 st.markdown("---")
 st.write("✅ Advanced Air Quality EDA using **Streamlit + Plotly**")
+
